@@ -1,0 +1,1021 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.contenedor{
+width: 1200px;
+height: 1410px;
+background:#ece7e7;
+margin: 0.5em auto;
+}
+
+.menu{
+width: 400px;
+height: 65px;
+float: right;
+margin-top: 30px;
+margin-bottom: 100px;
+
+}
+
+.menu ul{
+    margin:0;
+    padding: 0;
+    list-style-type: none;
+    float: right;  
+    }
+.menu ul li{
+    display: inline;
+}
+
+.menu ul li a{
+    display: inline-block;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #0010a1;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-decoration: none;
+    border-style: solid;
+    box-sizing: border-box;
+    color: rgb(67, 252, 10);
+ }
+
+
+.menu ul li a:hover{
+background-color: rgb(218, 0, 0);
+}
+
+.logo{
+width: 150px;
+height: 150px;
+margin-top: 20px;
+background-color: cadetblue;
+background-image: url(../img/logo.jpg);
+background-size: cover;
+margin-left: 20px;
+border-radius: 50%;
+border-style: solid;
+box-sizing: border-box;
+color: darkgoldenrod;
+
+animation: infinite jello;
+animation-duration: 7s;
+}
+
+.imagen{
+width: 150px;
+height: 150px;
+border-radius: 20%;
+}
+
+
+
+.encabezado_pagina_registrarse{   /*pagina registrarse*/
+    width:100%;
+    height: 30%;
+    background: #a4a4a4;
+    background-image: url(../img/encabezado_registrarse.jpg);
+    border-radius: 1em;
+    border: solid rgb(22, 104, 11);
+    box-sizing: border-box;
+    margin-bottom: 1%;
+}
+
+
+.titulo_registrarse{
+text-align: center;
+margin-top: 30px;
+color:rgb(250, 246, 246);
+}
+
+.contenedor_formulario{
+    width: 100%;
+    height: 60%;
+    background-color: chocolate;
+    background-image: url(../img/fondo_formulario.jpg);
+    background-size: cover;
+    background-attachment: fixed ;
+    border: solid rgb(22, 104, 11);
+    box-sizing: border-box;
+    border-radius: 1em;
+    margin-bottom: 1%;
+    
+}
+
+/*formulario_pagina_registrarse*/
+form{
+    width: 450px;
+    margin: auto;
+    margin-top: 10px;
+background:rgba(0, 0, 0, 0.4);
+padding: 10px 20px;
+box-sizing: border-box;
+border-radius: 7px;
+animation: backInUp;
+animation-duration: 4s;
+}
+
+.titulo_formulario{
+color: rgb(233, 221, 221);
+text-align: center;
+margin: 0;
+font-size: 30px;
+margin-bottom: 20px;
+
+}
+
+input, textarea{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+  border: none;
+}
+
+textarea{
+min-height: 90px;
+max-height: 110px;
+max-width: 100%; 
+}
+
+input[type=text]{
+    border: 2px solid red;
+}
+
+input[type=date]{
+    border: 2px solid green;
+}
+
+textarea[name="mensaje"]{
+    border: 2px solid rgb(17, 0, 248);
+}
+
+label{
+    color: aliceblue;
+}
+
+.boton_formulario{
+background: #ff8000;
+padding: 10px;
+
+}
+
+.boton_formulario:hover{
+cursor: pointer;
+}
+
+
+
+.encabezado_pagina_acerca{     /*pagina acerca*/
+    width:100%;
+    height: 30%;
+    background: #a4a4a4;
+    background-image: url(../img/encabezado_acerca.jpg);
+    background-size: 100% 100%;
+    border-radius: 1em;
+    border: solid rgb(22, 104, 11);
+    box-sizing: border-box;
+    margin-bottom: 0.5%;
+}
+
+.titulo_pagina_acerca{
+    text-align: center;
+    margin-top: 30px;
+    color:#f7f7f7;
+}
+
+.contenido_acerca{                                  
+    width: 100%;
+    height: 60%;
+    background-color: chocolate;
+    background-image: url(../img/imagen_contenido_acerca.jpg);
+    background-size: cover;
+    border: solid rgb(22, 104, 11);
+    box-sizing: border-box;
+    border-radius: 1em;
+    margin-bottom: 1%;
+}
+
+.contenedor_datos{
+width: 100%;
+height: 15%;
+background-color: rgb(70, 70, 95);
+background-image: url(../img/circle-blues.png);
+text-align: center;
+margin: auto;
+border-radius: 1em;
+
+}
+
+.dato{
+    width: 300px;
+  padding: 30px;
+  margin: 10px ;
+display: inline-block;
+box-sizing: border-box;
+color: #FFFFFF;
+
+animation: infinite pulse;
+animation-duration: 6s;
+}
+
+
+.informacion{
+width: 100%;
+}
+
+.titulo_informacion{
+    text-align: center;
+    font-size: 40px;
+    color:  #efb810;
+
+   
+}
+
+.contenido_informacion{
+    margin-top: 10px;
+    color: #FFFFFF;
+    }
+
+.informacion{
+    margin: 50px auto;
+    width: 700px;
+    height: 278px;
+    
+}
+
+.contenedor_iconos{                 /*contenedor de iconos pagina acerca*/
+overflow: hidden;
+margin: 20px 0px;
+}
+
+.contenedor_iconos h3{
+    text-align: center;
+    color: #fffbfb;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.contenedor_iconos .iconos{
+    width: 24%;
+    float: left;
+    overflow: hidden;
+    margin-top: 50px;
+ 
+}
+
+.contenedor_iconos .iconos i{
+    width: 24%;
+    display: block;
+    margin: auto;
+    font-size: 500%;
+    color: #00FF00;
+    animation: infinite pulse;
+    animation-duration: 7s;
+}
+
+.contenedor_iconos .iconos p{
+text-align: center;
+color: #FFFFFF;
+
+}
+
+.footer_acerca{
+    background-image: url(../img/imagen_contenido_acerca.jpg);
+    background-size: cover;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.footer_acerca a{
+    color:#fffbfb;
+}
+
+        
+/*pagina contacto*/
+.contenedor_pagina_contacto{
+width: 1200px;
+height: 1410px;
+background:#f1eded;
+margin: 0.5em auto;
+background-image: url(../img/fondo_contenido_contacto.jpg);
+}
+
+
+.encabezado_pagina_contacto{
+    width:100%;
+    height: 30%;
+    background: #00b853;
+    background-image: url(../img/fondo-contacto.jpg);
+    background-size: 100% 100%;
+    border-radius: 1em;
+    border: solid rgb(22, 104, 11);
+    box-sizing: border-box;
+    margin-bottom: 1%;
+}
+
+
+.titulo_pagina_contacto{
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+    color: #FFFFFF;
+   
+}
+
+
+.contenido_contacto{
+    width: 100%px;
+    height: 60%;
+    background-color: chocolate;
+    background-image: url(../img/fondo_contenido_contacto.jpg);
+    background-size: cover;
+    border: solid rgb(22, 104, 11);
+    box-sizing: border-box;
+    border-radius: 1em;
+    margin-bottom: 1%;
+}
+
+
+.subtitulo_contacto{
+ text-align:center; 
+ font-size: 25px;
+border-radius: 1em;
+color: #FFFFFF;
+
+}
+
+.subtitulo{
+    margin-left: 50px;
+  
+}
+
+.informacion_contacto{
+    width: 100%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.mapa{
+    width: 54%;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.contenedor_para_formulario{
+width: 40%;
+height: 450px;
+background-color: #050505;
+padding: 10px;
+float: right;
+margin-right: 30px;
+box-sizing: border-box;
+border-radius: 1em;
+}
+
+.titulo_formulario_contacto{
+    font-size: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.datos_usuario{
+height: 10px;
+}
+
+.boton_enviar{
+width: 120px;
+margin-top: 10px;
+color: #FFFFFF;
+background: #144c83;
+background: linear-gradient(#144c83,2da8ea);
+float:right;
+}
+
+.datos_de_contacto{
+    width: 54%;
+    height: 300px;
+    margin-top: 20px;
+    display:inline-block;
+    margin-left: 30px;
+    text-align: left;
+    color:#FFFFFF;
+}
+
+.lista1{
+   list-style: none;
+}
+
+.lista1 li{
+    margin-top: 30px;
+    text-align: center;
+    
+}
+
+.footer_contacto{
+background-image: url(../img/fondo_contenido_contacto.jpg);
+color: #FFFFFF;
+text-align: center;
+}
+
+.footer_contacto a{
+    color: #FFFFFF;
+}
+
+
+.footer_registrarse{
+    width: 1200px;
+    height: 8%;
+    background-color: rgb(94, 146, 241);
+    border-radius: 1em;
+    border: solid rgb(22, 104, 11);
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.footer_registrarse a{
+    color: white;
+}
+.footer_registrarse p{
+    color: rgb(3, 3, 3);
+}
+
+/*comienza el responsive*/
+
+@media all and (min-width:600px) and (max-width:1023px){
+    
+    .contenedor{
+        width: 100%; 
+        background: #FFFFFF;
+        }
+
+        .menu{
+        width: 350px;
+        height: 50px;
+        float: right;
+        margin-top: 50px;
+        margin-bottom: 100px;
+        
+        }
+        
+        .menu ul{
+            margin:0;
+            padding: 0;
+            list-style-type: none;
+            float: right;  
+            }
+        .menu ul li{
+            display: inline;
+        }
+        
+        .menu ul li a{
+            display: inline-block;
+            padding: 12px;
+            box-sizing: border-box;
+            background-color: #074f07;
+            color: #FFFFFF;
+            font-weight: bold;
+            text-decoration: none;
+        
+            }
+        
+        .logo{
+        width: 100px;
+        height: 100px;
+        margin-top: 20px;
+        background-color: cadetblue;
+        margin-left: 20px;
+        }
+        
+        .imagen{
+        width: 100px;
+        height: 100px;
+        }
+
+
+        .encabezado_pagina_registrarse{      /*pagina registrarse*/
+            width: 100%;
+            height: 30%;
+            background: #a4a4a4;
+            background-image: url(../img/encabezado_registrarse.jpg);
+            border-radius: 1em;
+            border: solid rgb(22, 104, 11);
+            box-sizing: border-box;
+            margin-bottom: 1%;
+        }
+
+        /*formulario_pagina_registrarse*/
+        
+        .titulo_registrarse{
+            background-color: rgb(247, 240, 241);
+            text-align: center;
+            margin-top: 100px;
+            }
+            
+            .contenedor_formulario{
+                width: 100%;
+                height: 60%;
+                background-color: chocolate;
+                background-image: url(../img/fondo_formulario.jpg);
+                background-size: cover;
+                background-attachment: fixed ;
+                border: solid rgb(22, 104, 11);
+                box-sizing: border-box;
+                border-radius: 1em;
+                margin-bottom: 1%;
+                
+            }
+            
+            form{
+                width: 450px;
+                margin: auto;
+                margin-top: 10px;
+            background:rgba(0, 0, 0, 0.4);
+            padding: 10px 20px;
+            box-sizing: border-box;
+            border-radius: 7px;
+            animation: backInUp;
+            animation-duration: 4s;
+            }
+            
+            .titulo_formulario{
+            color: rgb(243, 243, 243);
+            text-align: center;
+            margin: 0;
+            font-size: 30px;
+            margin-bottom: 20px;
+            
+            }
+            
+            input, textarea{
+                width: 100%;
+                padding: 10px;
+                box-sizing: border-box;
+              border: none;
+            }
+            
+            textarea{
+            min-height: 90px;
+            max-height: 110px;
+            max-width: 100%; 
+            }
+            
+            input[type=text]{
+                border: 2px solid red;
+            }
+            
+            input[type=date]{
+                border: 2px solid green;
+            }
+            
+            textarea[name="mensaje"]{
+                border: 2px solid rgb(17, 0, 248);
+            }
+            
+            .boton_formulario{
+            background: #ff8000;
+            padding: 10px;
+            
+            }
+            
+            .boton_formulario:hover{
+            cursor: pointer;
+            }
+
+        
+        /*pagina acerca*/
+
+        .encabezado_pagina_acerca{
+            width: 100%;
+        }
+
+        .titulo_pagina_acerca{
+            text-align: center;
+            margin-top: 100px;
+        }
+        
+        .contenido_acerca{                                  
+            width: 100%;
+            height: 60%;
+        }
+        
+        .contenedor_datos{
+            width: 100%;
+            height: 7%;
+         }
+            
+            .dato{
+                width: 20%;
+              padding: 5px;
+              margin: 5px ;
+         
+            }
+            
+            .informacion{
+                width: 100%;
+                }
+
+            .titulo_informacion{
+                width: 100%;
+                text-align: center;
+                font-size: 30px;
+               
+            }
+            
+            .contenido_informacion{
+                width: 100%;
+                margin-top: 10px;
+                font-size: 20px;
+                }
+            
+            .contenedor_iconos h3{
+                font-size: 30px;
+                margin-top: 120px;
+            }
+            
+            .contenedor_iconos .iconos{
+                width: 24%;
+                margin-top: 10px;
+            }
+        
+            /*pagina contacto*/
+            .contenedor_pagina_contacto{
+            width: 100%;
+            height:1700px;
+            margin: 0.5em auto;
+            }
+            
+            
+            .encabezado_pagina_contacto{
+                width:100%;
+                height: 20%;
+            }
+            
+            
+            .titulo_pagina_contacto{
+                width: 100%;
+                text-align: right;
+                margin-top: 30px;
+            }
+            
+            .contenido_contacto{
+                width: 100%px;
+                height:71%;
+            }
+            
+            
+            .subtitulo_contacto{
+             text-align: center; 
+             font-size: 20px;
+            }
+            
+            .mapa{
+                width: 94%;
+            }
+            
+            .contenedor_para_formulario{
+            width: 54%;
+            height: 450px;
+            margin:auto 23%;
+            }
+            
+            .titulo_formulario_contacto{
+                font-size: 20px
+               
+            }
+            
+            .formulario_contacto{
+            width: 100%;
+            }
+            
+            .boton_enviar{
+            margin-top: 20px;
+            }
+            
+            .datos_de_contacto{
+                width: 93%;
+                margin-top: 10px;
+            }
+            
+            .footer_contacto{
+            height: 7.5%;
+            }
+            
+        footer{
+            width: 100%;
+            height: 8%;
+        background-color: cornflowerblue;
+        border-radius: 1em;
+        border: solid rgb(22, 104, 11);
+            box-sizing: border-box;
+            text-align: center;
+        }
+        
+        footer a{
+            color: white;
+        }
+
+       
+}
+
+/*fin responsive*/
+
+/*comienzo segundo responsive*/
+
+@media all and (max-width:599px){ 
+    
+    .contenedor{
+        width: 100%;
+        height: 1410px;
+        background: #fcfafa;
+        margin: 0.5em auto;
+        }
+        
+        .menu{
+        width: 100%;
+        height:auto;
+        float: right;
+        background-color: blue;
+        margin: 150px auto;
+        margin-bottom: 10px;
+        background-image: url(../img/rgb.gif);
+        background-size: cover;
+        
+        }
+        
+        .menu ul{
+            margin:0;
+            padding: 0;
+            list-style-type: none;
+            float:none;  
+            }
+        .menu ul li{
+            display: block;
+        }
+        
+        .menu ul li a{
+            width: 100%;
+            display:block;
+            padding: 20px;
+            box-sizing: border-box;
+            background-color: #074f07;
+            color: #FFFFFF;
+            font-weight: bold;
+            text-decoration: none;
+            text-align: center;
+            margin-bottom: 5px;
+            }
+        
+        .logo{
+        width: 100px;
+        height: 100px;
+        background-image: url(../img/logo.jpg);
+        background-color: cadetblue;
+        background-size: cover;
+        margin: 30px auto;
+        }
+        
+        .encabezado_pagina_registrarse{
+           width: 100%;
+            height: 33%;
+            background: #a4a4a4;
+            background-image: url(../img/encabezado_registrarse.jpg);
+            border-radius: 1em;
+            border: solid rgb(22, 104, 11);
+            box-sizing: border-box;
+            margin-bottom: 1%;
+        }
+        
+        
+        /*formulario_pagina_registrarse*/
+        
+        .titulo_registrarse{
+            width: 98.7%;
+        text-align: center;
+        margin-top: 230px;
+        position: absolute;
+        }
+        
+        .contenedor_formulario{
+            width: 100%;
+            height: 58%;
+            background-color: chocolate;
+            background-image: url(../img/fondo_formulario.jpg);
+            background-size: cover;
+            background-attachment: fixed ;
+            border: solid rgb(22, 104, 11);
+            box-sizing: border-box;
+            border-radius: 1em;
+            margin-bottom: 1%;
+            
+        }
+        
+        form{
+            width: 450px;
+            margin: auto;
+           
+        background:rgba(0, 0, 0, 0.4);
+        padding: 10px 20px;
+        box-sizing: border-box;
+        border-radius: 7px;
+        animation: backInUp;
+        animation-duration: 4s;
+        }
+        
+        .titulo_formulario{
+        color: rgb(243, 243, 243);
+        text-align: center;
+        margin: 0;
+        font-size: 30px;
+        margin-bottom: 20px;
+        
+        }
+        
+        input, textarea{
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+          border: none;
+        }
+        
+        textarea{
+        min-height: 90px;
+        max-height: 110px;
+        max-width: 100%; 
+        }
+        
+        input[type=text]{
+            border: 2px solid red;
+        }
+        
+        input[type=date]{
+            border: 2px solid green;
+        }
+        
+        textarea[name="mensaje"]{
+            border: 2px solid rgb(17, 0, 248);
+        }
+        
+        .boton_formulario{
+        background: #ff8000;
+        padding: 10px;
+        
+        }
+        
+        .boton_formulario:hover{
+        cursor: pointer;
+        }
+       
+        /*pagina acerca*/
+
+        .encabezado_pagina_acerca{
+            width: 100%;
+            height: 33%;
+        }
+
+        .titulo_pagina_acerca{
+            width: 98.7%;
+            text-align: center;
+            margin-top: 230px;
+            position: absolute;
+        }
+
+        .contenido_acerca{
+            width: 100%;
+            height:58% ;
+         }  
+
+        .contenedor_datos{
+            width: 100%;
+            height: 15%;
+            }
+            
+            .dato{
+                width: 80%;
+                height: 10px;
+              padding: 10px;
+            display: inline-block;
+            }
+
+            .informacion{
+                width:100%;
+                height: 278px;
+                margin: 50px auto; 
+                
+            }
+            
+            .titulo_informacion{
+                text-align: center;
+                font-size: 25px;
+            }
+            
+            .contenedor_iconos h3{
+                text-align: center;
+                color: #00FF00;
+                font-size: 26px;
+                margin-top: 50px;
+            }
+            
+            .contenedor_iconos .iconos i{
+                width: 24%;
+                font-size: 300%;
+            }
+            
+            .contenedor_iconos .iconos p{
+            font-size: 12px;
+            }
+
+        /*pagina contacto*/
+        .contenedor_pagina_contacto{
+            width: 100%;
+            height: 1800px;
+        }
+
+        .encabezado_pagina_contacto{
+            width: 100%;
+            height: 27%;
+        }
+        
+        .titulo_pagina_contacto{
+            width: 98.7%;
+            margin-top: 230px;
+            position: absolute;
+        }
+
+        .contenido_contacto{
+            width: 100%;
+            height:67% ;
+        
+        }
+        .subtitulo_contacto{
+            text-align: center; 
+            font-size: 20px;
+           }
+           
+           .informacion_contacto{
+               width: 100%;
+               text-align: center;
+           
+           }
+           
+           .mapa{
+               width: 89%;
+               margin-top: 10px;
+               
+           }
+           
+           .contenedor_para_formulario{
+           width: 89%;
+           height: 450px;
+           float: left;
+           margin:auto 6%;
+         
+           }
+           
+           .titulo_formulario_contacto{
+               font-size: 16px;
+           }
+           
+           .formulario_contacto{
+           width: 100%;
+           }
+           
+           .datos_de_contacto{
+               width: 85%;
+               height: 25.9%;
+               margin-top: 3px;
+               margin-left: 8%;
+           }
+           
+           .lista1{
+              list-style: none;
+           }
+           
+           .lista1 li{
+               margin-top: 30px;
+               text-align: center;
+               
+           }
+           
+           .footer_contacto{
+           height: 5%;
+           }
+        
+        
+        
+        footer{
+        width: 100%;
+        height: 8%;
+        background-color: cornflowerblue;
+        border-radius: 1em;
+        border: solid rgb(22, 104, 11);
+        box-sizing: border-box;
+        text-align: center;
+        }
+        
+        footer a{
+            color: white;
+        }
+  }
